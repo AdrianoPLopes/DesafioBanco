@@ -58,7 +58,7 @@ public class Desafio {
                 System.out.println("Saindo do programa.");
                 break;
             }
-            if (operacao > 4 && operacao <= 0) {
+            if (operacao > 4 || operacao <= 0) {
                 System.out.println("Operação invalida.");
                 System.out.println("Digite novamente a operação.");
             }
